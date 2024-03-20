@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ví dụ bảng biểu trong Bootstrap 4 --- nguyenanhtrong.tech</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
+  <style>
+    thead {
+      background-color: green;
+      color: white;
+    }
+    thead:hover {
+      background-color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+ 
+<div class="container">
+  <h2></h2>
+  <div class="table-responsive-sm">
+    <table class="table table-bordered table-sm">
+    <thead>
+      <tr>
+        <th>Học Phần</th>
+        <th>Kiến Thức</th>
+        <th>Nội Dung</th>
+        <th>Kỹ Năng</th>
+        <th>Công Cụ</th>
+        <th>Sản Phẩm Đầu Ra</th>
+        <th>Sản Phẩm Mẫu</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>1</td>
+          <td>Các khái niệm lập trình cơ bản</td>
+          <td><p>"Tìm hiểu tổng quan về ngôn ngữ lập trình Python</p>
+              <p>Tìm hiểu về biến, kiểu các kiểu dữ liệu cơ bản</p>
+              <p>Tìm hiểu cấu trúc rẽ nhánh (câu điều kiện)</p>
+              <p>Tìm hiểu về các phép so Tìm hiểu về vòng lặp</p>
+              <p>Tìm hiểu về kiểu dữ liệu danh sách (list)"</p></td>
+          <td><p>"Kỹ năng giải quyết vấn đề</p>
+              <p>Kỹ năng hợp tác: Phân chia công việc</p>
+              <p>Kỹ năng giao tiếp: Hiểu và biết cách trả lời tập trung vào nội dung </p>
+              <p>Kỹ năng phản biện"</p></td>
+          <td>Python IDLE</td>
+          <td>Ứng dụng đơn giản trên màn hình ký tự</td>
+          <td>"Phần mềm quản lý học sinh
+              Phần mềm đoán số"</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Lập trình đồ họa</td>
+          <td>
+              "Tìm hiểu về khái niệm thuật toán
+              Tìm hiểu về hàm
+              Tìm hiểu về thư viện lệnh
+              Tìm hiểu về khái niệm về đồ họa máy tính
+              Sử dụng thư viện đồ họa Turtle để thiết kế kế trò chơi:
+              - Hiển thị hình ảnh nền, hình ảnh nhân vật
+              - Hiển thị hình ảnh nền, hình ảnh nhân vật
+              - Cách thức tương tác trò chơi với bàn phím và chuột
+              - Thiết kế kịch bản trò chơi"</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và xây dựng kịch bản trò chơi
+              Kỹ năng sáng tạo"</td>
+          <td>"Python IDLE
+              Turtle"</td>
+          <td>Trò chơi với chế độ đồ họa</td>
+          <td>"Trò chơi Snake
+              Trò chơi Chiến binh không gian"</td>
+          
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Lập trình Giao diện đồ họa cho người dùng</td>
+          <td>"Tìm hiểu về lập trình hướng đối tượng
+              Tìm hiểu thư viện Tkinter
+              Sử dụng thư viện Tkinter để tạo giao diện người dùng đồ họa (Graphic User Interface - GUI)
+              Tìm hiểu về lập trình hướng sự kiện"</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và xây dựng kịch bản trò chơi
+              Kỹ năng sáng tạo"</td>
+          <td>"Python IDLE
+              Tkinter"</td>
+          <td>Các ứng dụng có giao diện đồ họa người dùng</td>
+          <td>"Simple Calculator
+              Simple Painter"</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Lập trình Game</td>
+          <td>"Tìm hiểu Video Game
+              Tìm hiểu bộ thư viện PyGame
+              Tìm hiểu về sự kiện trong lập trình game
+              Ôn tập và tìm hiểu về lập trình hướng đối tượng (OOP) trong lập trình game
+              Tìm hiểu chuyển động, hành động của nhân vật (animate)
+              Luyện tập lên ý tưởng, kịch bản, thuật toán cho game"</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và xây dựng kịch bản trò chơi
+              Kỹ năng sáng tạo"</td>
+          <td>"PyCharm
+              PyGame"</td>
+          <td>Các trò chơi</td>
+          <td>"Snake
+              Xếp gạch (Tetrix)
+              Bóng nẩy
+              Flappy Bird"</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Thiết kế web với Wordpress</td>
+          <td>"Tìm hiểu Wordpress, khái niệm hệ quản trị nội dung (CMS)
+              Tìm hiểu chuyên mục, bài biết , cách xuất bản bài viết.
+              Phân biệt bài viết và trang web, xây dựng trang web.
+              Thiết kế menu từ các chuyên mục đã tạo trước đây.
+              Tìm hiểu chức năng bình luận
+              Xây dựng website với plugin Slideshow"</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và thiết kế website
+              Kỹ năng sáng tạo"</td>
+          <td>Wordpress</td>
+          <td>Website</td>
+          <td>Website tin tức</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Lập trình web tĩnh</td>
+          <td>"Tìm hiểu khái niệm HTML , khái niệm CSS.
+              Tìm hiểu các thẻ HTML cơ bản, thuộc tính CSS cơ bản.
+              Xây dựng thanh điều hướng (menu) từ các thẻ cơ bản.
+              Lập trình trang web hoàn chỉnh.
+              Tìm hiểu khái niệm server, thiết lập server ảo & cập nhật website lên server ảo"</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và thiết kế website
+              Kỹ năng sáng tạo"</td>
+          <td>Visual Studio</td>
+          <td>Website</td>
+          <td>Trang web giới thiệu Teky</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Lập trình web tĩnh  với framework Bootstrap</td>
+          <td>"Tìm hiểu framework Bootstrap , cách thức cài đặt và sử dụng.
+              Tìm hiểu các thành phần cơ bản của Bootstrap
+              Xây dựng các form đăng ký.
+              Tìm hiểu các công cụ phân trang, hộp thoại, menu.
+              Tối ưu hóa hiển thị trên điện thoại."</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và xây dựng kịch bản trò chơi
+              Kỹ năng sáng tạo"</td>
+          <td>Visual Studio</td>
+          <td>Website</td>
+          <td>Trang web tin tức, sử dụng framework Bootstrap</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Lập trình web cùng JavaScript</td>
+          <td>"Tìm hiểu JavaScript (JS) , nhúng JS vào HTML
+              Tìm hiểu khái niệm Client , Server
+              Tìm hiểu các lệnh cơ bản JS
+              Tìm hiểu các phép toán trong JS
+              Tìm hiểu cấu trúc rẽ nhánh IF 
+              Tìm hiểu vòng lặp FOR
+              Tìm hiểu các sự kiện, xử lý sự kiện cho các thẻ HTML bằng JS
+              Tìm hiểu các framework javascript"</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và thiết kế website
+              Kỹ năng sáng tạo"</td>
+          <td>Visual Studio</td>
+          <td>Website</td>
+          <td>Trang web tin tức, sử dụng framework Bootstrap</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Lập trình Web cùng framework Django</td>
+          <td>"Tìm hiểu framework Django, thiết lập server cho hệ thống Django
+              Tìm hiểu cấu trúc framework Django, xây dựng và hoạt động của website trên localhost
+              Tìm hiểu Test Case, XSS
+              Tìm hiểu Template trong Django
+              Tìm hiểu các thành phần giao diện (Slider, header, footer, section...)
+              Tìm hiểu SEO và tối ưu hóa SEO"</td>
+          <td>"Tìm hiểu framework Django, thiết lập server cho hệ thống Django
+              Tìm hiểu cấu trúc framework Django, xây dựng và hoạt động của website trên localhost
+              Tìm hiểu Test Case, XSS
+              Tìm hiểu Template trong Django
+              Tìm hiểu các thành phần giao diện (Slider, header, footer, section...)
+              Tìm hiểu SEO và tối ưu hóa SEO"</td>
+          <td>Visual Studio</td>
+          <td>Website</td>
+          <td>Trang web thông tin cá nhân, sử dụng Bootstrap kết hợp framework Django</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Lập trình Web cùng framework Django</td>
+          <td>"Tìm hiểu khái niệm ORM, cách quản lý và xuất bản bài viết.
+              Tìm hiểu Cơ Sở Dữ Liệu, các thao tác thêm, sửa, xóa dữ liệu.
+              Tìm hiểu hệ thống Admin.
+              Tìm hiểu Template.
+              Tìm hiểu giao thức truyền dữ liệu trên internet.
+              Tìm hiểu các lỗi trong lập trình web. Xây dựng các trang chuyển hướng  khi phát sinh lỗi.
+              Tìm hiểu HTTPS, SSL , cac thư viện bảo mật của Django."</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và thiết kế website
+              Kỹ năng phân tích dữ liệu.
+              Kỹ năng sáng tạo"</td>
+          <td>Visual Studio</td>
+          <td>Website</td>
+          <td>Trang web thông tin cá nhân, sử dụng Bootstrap kết hợp framework Django</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Lập trình Web cùng framework Django</td>
+          <td>"Tìm hiểu mô hình MVC.
+              Tìm hiểu lưu trữ file, upload , download
+              Tìm hiểu form trong Django, form đăng ký và đăng nhạp người dùng
+              Tìm hiểu quản lý người dùng và phân quyền người dùng.
+              Tìm hiểu hiển thị nội dung trên website, bình luận & quản trị bình luận.
+              Tối ưu hóa tốc độ xử lý cho website."</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và thiết kế website
+              Kỹ năng phân tích dữ liệu.
+              Kỹ năng sáng tạo"</td>
+          <td>Visual Studio</td>
+          <td>Website</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Xây dựng Website bán hàng cùng framework Django</td>
+          <td>"Tìm hiểu về website bán hàng
+              Tìm hiểu API, tìm hiểu cách đăng nhập bằng form, google, facebook...
+              Một số nguyên tắc khi thiết kế trang web thương mại điện tử
+              Tìm hiểu cách trình bày chi tiết của sản phẩm.
+              Tìm hiểu section , đơn hàng .
+              Tìm hiểu thanh toán trực tuyến, plugin thanh toán thông dụng: Paypal, Visa, Master ..."</td>
+          <td>"Kỹ năng giải quyết vấn đề
+              Kỹ năng hợp tác
+              Kỹ năng giao tiếp
+              Kỹ năng phản biện
+              Kỹ năng phân tích và thiết kế website
+              Kỹ năng phân tích dữ liệu.
+              Kỹ năng sáng tạo"</td>
+          <td>Visual Studio</td>
+          <td>Website</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+        <h2>Nguyễn Hiệp Phúc Thiên</h2>
+        <h3>13 tuổi</h3>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
